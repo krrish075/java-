@@ -7,33 +7,26 @@ public class Book {
         this.id = id;
         this.title = title;
         this.author = author;
-        this.available = true;
+        this.available = available;
     }
 
-    public int getId() {
+    public int getId(){
         return id;
     }
-
-    public String getTitle() {
+    public String getTitle(){
         return title;
     }
-
-    public String getAuthor() {
+    public String getAuthor(){
         return author;
     }
-
-    public boolean isAvailable() {
+    public boolean isAvailable(){
         return available;
     }
-
-    public void setAvailable(boolean available) {
+    public void setAvailable(boolean available){
         this.available = available;
     }
 
     public void displayBook() {
-        System.out.println(
-                id + " | " + title + " | " + author +
-                        " | " + (available ? "Available" : "Issued")
-        );
+        System.out.println(id + " | " + title + " | " + author + " | " +( available ?  "Available" : "Issued"));
     }
 }
