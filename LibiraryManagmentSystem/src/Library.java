@@ -42,4 +42,23 @@ public class Library {
        }
        System.out.println("Book Not found.");
    }
+    public void returnBook(int bookId) {
+
+        for (Book book : books) {
+
+            if (book.getId() == bookId) {
+
+                if (!book.isAvailable()) {
+                    book.setAvailable(true);
+                    System.out.println("Book returned successfully!");
+                } else {
+                    System.out.println("Book was not issued.");
+                }
+
+                return;
+            }
+        }
+
+        System.out.println("Book not found.");
+    }
 }
