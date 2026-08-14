@@ -3,8 +3,7 @@ public class Book {
     private String title;
     private String author;
     private boolean available;
-
-    public Book(int id, String title, String author) {
+    public Book(int id , String title , String author , boolean available) {
         this.id = id;
         this.title = title;
         this.author = author;
