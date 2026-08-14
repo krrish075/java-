@@ -29,6 +29,17 @@ public class Library {
        }
    }
    public void issueBook(Book book){
-       for(Book book : books)
+       for(Book book : books){
+           if (book.getId() == book.getId()){
+               if (book.isAvailable()){
+                   book.setAvailable(false);
+                   System.out.println("Book issued sucessfully!");
+               }else {
+                   System.out.println("Book issued failed!");
+               }
+               return;
+           }
+       }
+       System.out.println("Book Not found.");
    }
 }
