@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Basics Learning/Basics Learning.iml" filepath="$PROJECT_DIR$/Basics Learning/Basics Learning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/DSA/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Second half.iml" filepath="$PROJECT_DIR$/Second half.iml" />
     </modules>
   </component>
