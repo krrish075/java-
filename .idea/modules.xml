@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/DSA/DSA.iml" filepath="$PROJECT_DIR$/DSA/DSA.iml" />
       <module fileurl="file://$PROJECT_DIR$/DSA/Recursion/Recursion.iml" filepath="$PROJECT_DIR$/DSA/Recursion/Recursion.iml" />
       <module fileurl="file://$PROJECT_DIR$/Second half.iml" filepath="$PROJECT_DIR$/Second half.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DSA/string/string.iml" filepath="$PROJECT_DIR$/DSA/string/string.iml" />
     </modules>
   </component>
 </project>
